@@ -4,6 +4,10 @@ import { Counter } from "./components/Counter";
 import { RevealAnswer } from "./components/RevealAnswer";
 import { ChangeType } from "./components/ChangeType";
 import { TwoDice } from "./components/TwoDice";
+import { Counter } from "./components/Counter";
+import { DoubleHalf } from "./bad-components/DoubleHalf";
+import { ColoredBox } from "./bad-components/ColoredBox";
+import { ChooseTeam } from "./bad-components/ChooseTeam";
 import { Button } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
@@ -16,6 +20,20 @@ function App(): React.JSX.Element {
                 <style>{"body { background-color: red; }"}</style>
                 UM COS420 with React Hooks and TypeScript Josh
             </header>
+            <hr></hr>
+            {/* <DoubleHalf></DoubleHalf> */}
+            <hr></hr>
+            <ChooseTeam></ChooseTeam>
+            <hr></hr>
+            <ColoredBox></ColoredBox>
+            <hr></hr>
+            <Counter></Counter>
+            <hr />
+            <RevealAnswer></RevealAnswer>
+            <hr />
+            <TwoDice></TwoDice>
+            <hr />
+            <ChangeType></ChangeType>
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
