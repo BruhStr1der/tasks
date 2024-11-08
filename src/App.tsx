@@ -4,7 +4,6 @@ import { Counter } from "./components/Counter";
 import { RevealAnswer } from "./components/RevealAnswer";
 import { ChangeType } from "./components/ChangeType";
 import { TwoDice } from "./components/TwoDice";
-import { Counter } from "./components/Counter";
 import { DoubleHalf } from "./bad-components/DoubleHalf";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
@@ -21,7 +20,7 @@ function App(): React.JSX.Element {
                 UM COS420 with React Hooks and TypeScript Josh
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
